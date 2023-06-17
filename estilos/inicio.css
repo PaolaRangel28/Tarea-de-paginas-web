@@ -1,0 +1,48 @@
+/* Estilos de contenido */
+
+.contenido__de__inicio {
+  padding: 15px;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+/* Estilos de la imagen principal de bienvenida */
+
+.imagen__de__saludo {
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+}
+
+/* Estilos de la descripcion */
+
+.contendor__de__la__descripción__de__inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.imagen__de__michi__bisco {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contendor__de__la__descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo__de__la__descripcion {
+  text-align: center;
+}
+
+.descripcion {
+  max-width: 500px;
+}

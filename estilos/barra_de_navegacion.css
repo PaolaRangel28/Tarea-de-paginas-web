@@ -1,0 +1,43 @@
+/* Estilos de barra de navegacion */
+
+.barra_de_navegacion {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  background: #111111;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.imagen__de__la__barra__de__navegacion {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contenedor__de__las__opciones__de__la__barra__de__navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.opcion__de__la__barra__de__navegacion {
+  font-size: 1rem;
+  transition: transform 200ms;
+  color: #eaecee;
+}
+
+/* Crea un efecto cuando se pasa el mouse por encima */
+
+.opcion__de__la__barra__de__navegacion:hover {
+  transform: scale(1.1);
+}

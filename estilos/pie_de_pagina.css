@@ -1,0 +1,38 @@
+/* Estilos de pie de pagina */
+
+.pie__de__pagina {
+  background: #111111;
+  width: 100%;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 90px;
+}
+
+/* Estilos de los datos que tiene el pie de pagina */
+
+.pie__de__pagina__licencia {
+  color: #eaecee;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pie__de__pagina__nombre {
+  color: #eaecee;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.pie__de__pagina__grado {
+  color: #eaecee;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
